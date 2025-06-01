@@ -1,0 +1,35 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Shoot/Sprites/UI/Menu Background.png" type="Texture" id=1]
+[ext_resource path="res://Shoot/Sprites/UI/ButtonExit (2).png" type="Texture" id=2]
+[ext_resource path="res://Shoot/Sprites/UI/ButtonPlay (2).png" type="Texture" id=3]
+[ext_resource path="res://Shoot/Sprites/UI/ButtonExit (1).png" type="Texture" id=4]
+[ext_resource path="res://Shoot/Sprites/UI/ButtonPlay (1).png" type="Texture" id=5]
+[ext_resource path="res://menu.gd" type="Script" id=6]
+
+[node name="menu" type="Node2D"]
+script = ExtResource( 6 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 509, 311 )
+scale = Vector2( 0.532292, 0.567593 )
+texture = ExtResource( 1 )
+
+[node name="TextureButton" type="TextureButton" parent="Sprite"]
+margin_left = -148.917
+margin_top = 153.904
+margin_right = 151.083
+margin_bottom = 253.904
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 5 )
+
+[node name="TextureButton2" type="TextureButton" parent="Sprite"]
+margin_left = -141.424
+margin_top = 365.634
+margin_right = 158.576
+margin_bottom = 465.634
+texture_normal = ExtResource( 2 )
+texture_pressed = ExtResource( 4 )
+
+[connection signal="pressed" from="Sprite/TextureButton" to="." method="_on_TextureButton_pressed"]
+[connection signal="pressed" from="Sprite/TextureButton2" to="." method="_on_TextureButton2_pressed"]
