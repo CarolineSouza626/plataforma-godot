@@ -17,7 +17,7 @@ Godot Engine 3.5, GDScript
 Clone o repositório, abra o projeto no Godot e execute a cena principal (`main.tscn`).  
 
 - **Link do projeto:**  
-[Repositório Caça às Moedas]([https://github.com/CarolineSouza626/plataforma-godot/Lool's platform game](https://github.com/CarolineSouza626/plataforma-godot/tree/main/Lool's%20platform%20game))
+[Repositório Caça às Moedas](https://github.com/CarolineSouza626/plataforma-godot/tree/main/Lool's%20platform%20game)
 
 ---
 
@@ -34,7 +34,7 @@ Godot Engine 3.5, GDScript
 Clone o repositório, abra o projeto no Godot e execute a cena principal (`main.tscn`).  
 
 - **Link do projeto:**  
-[Repositório Batalha do Oponente](https://github.com/CarolineSouza626/plataforma-godot/aluno2)
+[Repositório Batalha do Oponente](https://github.com/CarolineSouza626/plataforma-godot/tree/main/Aluno2)
 
 ---
 
